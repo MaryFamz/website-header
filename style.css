@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    /* border: 2px solid red; */
+   height: 12vh;
+   display: flex;
+   justify-content: space-between ;
+   background-color: blue;
+}
+.logo{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bolt{
+    color: yellow;
+}
+.navbar{
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.nav:hover{
+    background-color: black;
+    color:blue;
+    transition: 0.3s;
+    cursor: pointer;
+}
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+.image{
+    height: 400px;
+}
+
